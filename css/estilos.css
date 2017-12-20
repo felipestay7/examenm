@@ -1,0 +1,281 @@
+header{
+    min-height: 125px;
+    background: #176D81;
+
+}
+main{
+    background: #f9f9f9;
+    min-height: 200px;
+    border-top: solid 2px #cccccc;
+}
+footer{
+    background: #222831;
+    min-height: 75px;
+    max-height: 200px;
+
+}
+
+h1{
+    color: #ffffff;
+}
+/*login.php-------------------*/
+.login-formulario{
+    background: #f9f9f9;
+    padding:20px ;
+    height: 200px;
+
+
+}
+.login-intruc{
+    background: #f9f9f9;
+    height: 200px;
+    padding:20px ;
+
+}
+.login-cabecera{
+    margin-top: 105px;
+    background: #176D81;
+    min-height: 50px;
+}
+.login-padding{
+    margin-bottom: 105px;
+
+}
+.login-border{
+    border-left: solid 4px #D8DFE2;
+    border-right: solid 4px #D8DFE2;
+}
+.login-error{
+    background:#f9f9f9;
+    padding: 20px;
+    border-left: solid 4px #D8DFE2;
+    border-right: solid 4px #D8DFE2;
+
+}
+.login-text{
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+
+/*panelnormal----------*/
+
+.panel_fondo{
+    background: #f9f9f9;
+
+}
+
+.panel_info{
+    background:#f9f9f9;
+}
+
+/*-----------------in_panciente*/
+.in_fondo{
+    background:#f9f9f9;
+}
+.in_paciente_form{
+    padding: 10px;
+
+}
+.in_mensaje{
+    background: #f9f9f9 ;
+    min-height: 50px;
+}
+
+
+/*footer---*/
+.footer-text{
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    color: #ffffff;
+}
+
+/*camvia pass-------------*/
+.pass_fondo{
+     background: #f9f9f9 ;
+    padding: 5px;
+    margin-top: 55px;
+    margin-bottom: 200px;
+    border-left: solid 2px #cccccc;
+    border-right: solid 2px #cccccc;
+    border-top: solid 2px #cccccc;
+ }
+
+.buscar_fondo{
+    background: #f9f9f9 ;
+    padding: 5px;
+    margin-top: 55px;
+    margin-bottom: 100px;
+    border-left: solid 2px #cccccc;
+    border-right: solid 2px #cccccc;
+    border-top: solid 2px #cccccc;
+}
+/*---------administracion--*/
+
+.admin-fondo{
+    background: #f9f9f9 ;
+    min-height: 500px;
+
+}
+
+.admin_tirulo{
+    padding: 10px;
+
+
+}
+.admin_dato{
+    padding: 5px;
+}
+.text_admin{
+    font-size: 15pt;
+    font-family: arial,helvetica,sans-serif;
+    color: #3c3c3c;
+}
+
+/*---datos---*/
+
+.datos_fondo{
+     border: solid 2px #bce8f1;
+     background: #ffffff;
+
+ }
+.datos_bottom{
+    border-bottom: solid 2px #bce8f1;
+
+}
+.datos_fondo_gra{
+    border: solid 2px #bce8f1;
+    background: #ffffff;
+
+}
+.datos_header{
+    background: #d9edf7;
+    border-bottom: solid 2px #bce8f1;
+
+}
+.text_datos{
+    font-size: 15pt;
+    font-family: arial,helvetica,sans-serif;
+    color: #31708f;
+    padding: 5px;
+}
+
+.persona_espacio{
+    height: 20px;
+    background: #f9f9f9 ;
+}
+
+.reserva{
+   margin-top: 10px;
+}
+.bot{
+    padding: 5px;
+}
+.bot2{
+
+
+}
+
+.reserva_bt{
+    padding:10px;
+}
+.reserva_menu{
+    margin-bottom: 170px;
+}
+
+/*botones-----------------------*/
+.boton_tabla{
+    text-decoration: none;
+    color: #ffffff;
+    background: #176D81;
+    padding: 30px;
+
+}
+.boton_tabla:hover{
+
+    background: #1883ba;
+}
+
+/*in_historial--*/
+.in_historial-espacio{
+    height: 200px;
+}
+
+/*-----historial*/
+
+.histoespacio{
+    min-height: 500px;
+}
+/*----lector qr-----*/
+
+.camara{
+    min-height: 300px;
+}
+
+
+#qr-canvas{
+    display:none;
+}
+
+#outdiv{
+    width:400px;
+    height:400px;
+}
+
+#v{
+    width:400px;
+    height:400px;
+}
+
+@media screen and (max-width: 480px){
+
+    #outdiv{
+        width:300px;
+        height:300px;
+    }
+
+    #v{
+        width:300px;
+        height:300px;
+    }
+
+    @media screen and (max-device-width: 480px)
+    and (orientation:portrait){
+
+        #outdiv{
+            width:400px;
+            height:400px;
+
+        }
+
+        #v{
+            width:300px;
+            height:300px;
+        }
+
+    }
+
+}
+
+/*lista-----*/
+
+.espaciolista{
+    min-height: 500px;
+}
+
+.div-scroll{
+    overflow-y: scroll;
+    height:400px;
+}
